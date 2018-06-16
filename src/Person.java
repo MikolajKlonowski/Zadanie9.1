@@ -1,4 +1,4 @@
-public class Person {
+public class Person  {
     private  String firstName;
     private String lastName;
     private int age;
@@ -36,7 +36,7 @@ public class Person {
         this.pesel = pesel;
     }
 
-    public Person(String firstName, String lastName, int age, int pesel) {
+    public Person(String firstName, String lastName, int age, int pesel) throws NameUndefinedException, IncorrectAgeException {
 
         this.firstName = firstName;
         this.lastName = lastName;
